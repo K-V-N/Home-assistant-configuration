@@ -1,0 +1,16 @@
+alias: "Wekker slaapkamer oost"
+trigger:
+    platform: time
+    after: '05:42:00'
+condition:
+          - condition: time
+            weekday:
+             - mon
+             - tue
+             - wed
+             - thu
+             - fri
+action:
+    - service: script.slow_turnon_lights
+      data:
+       entity_id: light.plafondlamp_slaapkamer_oost_level_7_0

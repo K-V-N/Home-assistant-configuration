@@ -1,0 +1,6 @@
+name: "Eettafel lezen"
+entities:
+   light.hanglampen_eettafel:
+    state: on
+    brightness: 255
+    color_temp: 447

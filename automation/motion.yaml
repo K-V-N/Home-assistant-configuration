@@ -1,0 +1,19 @@
+alias: "Licht aan bij beweging"
+hide_entity: false
+trigger:
+    platform: state
+    entity_id: binary_sensor.multisensor_sensor_6_0
+    state: 'on'
+condition:
+    condition: and
+    conditions:
+      - condition: state
+        entity_id: light.woonkamer
+        state: 'off'
+      - condition: numeric_state
+        entity_id: sun.sun
+        value_template: '{{ state.attributes.elevation }}'
+        below: 3
+action:
+      - service: homeassistant.turn_on
+        entity_id: script.motion_living_on

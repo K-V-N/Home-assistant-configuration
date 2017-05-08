@@ -1,0 +1,23 @@
+alias: 'Lights on in morning - weekdays'
+hide_entity: false
+trigger:
+    platform: time
+    after: '06:10:00'
+condition:
+      condition: and
+      conditions:
+        - condition: time
+          weekday:
+           - mon
+           - tue
+           - wed
+           - thu
+           - fri
+        - condition: numeric_state
+          entity_id: sun.sun
+          value_template: '{{ state.attributes.elevation }}'
+          below: 3
+action:
+      - service: scene.turn_on
+        entity_id:
+          - scene.morning

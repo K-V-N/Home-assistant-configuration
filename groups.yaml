@@ -1,0 +1,151 @@
+default_view:
+ view: yes
+ entities:
+     - group.mensen
+     - group.woonkamer
+     - group.hal
+     - group.mensen
+     - group.slaapkamer_zuid
+     - group.slaapkamer_oost
+     - group.slaapkamer_west
+     - group.buiten
+     - group.zolder
+     - group.weather
+     - group.zonwering
+
+mensen:
+  name: Mensen
+  view: no
+  icon: mdi:account-multiple
+  entities:
+    - device_tracker.han_oneplus3
+    - device_tracker.ria_iphone6s
+    - device_tracker.koen_oneplus3
+    - device_tracker.daan_nexus5
+
+woonkamer:
+  name: Woonkamer
+  view: no
+  icon: mdi:sofa
+  entities:
+        - light.eetkamer
+        - light.hanglampen_eettafel
+        - light.keuken
+        - light.woonkamer
+        - scene.evening
+        - scene.cooking
+        - scene.morning
+
+buiten:
+  name: Buiten
+  view: no
+  icon: mdi:home-modern
+  entities:
+   - light.buiten
+   - scene.buitenlampen_aan
+
+Hal_group:
+  name: Hal
+  view: no
+  entities:
+   - light.hal_1
+   - light.hal_2
+   - light.hal_3
+   - light.hal_4
+   - light.hal_5
+   - light.tradfri_group
+
+Hal:
+    name: Hal
+    view: no
+    entities:
+     - light.tradfri_group
+
+slaapkamer_zuid:
+  name: "Slaapkamer zuid"
+  view: no
+  icon: mdi:hotel
+  entities:
+        - light.nachtlamp_rechts
+
+slaapkamer_oost:
+  name: "Slaapkamer oost"
+  view: no
+  icon: mdi:hotel
+  entities:
+        - light.slaapkamer_oost
+        - light.plafondlamp_slaapkamer_oost_level_7_0
+        - scene.slaapkamer_oost_gedimd
+        - scene.slaapkamer_oost_fel
+
+slaapkamer_west:
+   name: "Slaapkamer west"
+   view: no
+   icon: mdi:hotel
+   entities:
+       - light.slaapkamer_west
+
+zolder:
+  name: "Zolder"
+  view: no
+  icon: mdi:desktop-mac
+  entities:
+   - light.loft_1
+   - light.loft_2
+   - scene.loft_fel
+   - scene.loft_gedimd
+
+loft:
+  name: "Loft"
+  view: no
+  icon: mdi:desktop-mac
+  entities:
+   - light.loft_1
+   - light.loft_2
+
+
+
+weather:
+  name: Weather
+  entities:
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_temperature
+    - sensor.dark_sky_humidity
+    - sensor.dark_sky_precip
+    - sensor.dark_sky_precip_probability
+    - sensor.dark_sky_precip_intensity
+    - sensor.dark_sky_wind_speed
+    - sensor.solar_angle
+    - sensor.sunrise
+
+
+
+regels:
+ name: Regels
+ view: yes
+ entities:
+   - automation.flic_wit_enkel
+   - automation.flic_wit_dubbel
+   - automation.flic_wit_lang
+   - automation.lampen_eettafel_normaal
+   - automation.lampen_eettafel_uit
+   - automation.leeslicht
+   - automation.licht_aan_bij_beweging
+   - automation.lights_off_on_sunrise
+   - automation.lights_on_and_sun_covers_up_in_the_evening
+   - automation.lights_on_in_morning__weekdays
+   - automation.zonwering_alles_omhoog
+   - automation.zonwering_alles_omlaag
+   - automation.wekker_slaapkamer_oost
+
+zonwering:
+    name: Zonwering
+    view: no
+    icon: mdi:blinds
+    control: hidden
+    entities:
+     - cover.zonwering_zuid_level_3_0
+     - cover.zonwering_oost_links_level_4_0
+     - cover.zonwering_oost_rechts_level_5_0
+     - script.zonwering_omhoog
+     - script.zonwering_omlaag

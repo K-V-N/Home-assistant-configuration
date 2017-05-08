@@ -1,0 +1,53 @@
+homeassistant:
+  name: !secret homeassistant_name
+  latitude: !secret homeassistant_latitude
+  longitude: !secret homeassistant_longitude
+  elevation: 2
+  unit_system: metric
+  time_zone: Europe/Amsterdam
+  customize: !include customize.yaml
+
+zone:
+  name: Home
+  latitude: !secret homeassistant_latitude
+  longitude: !secret homeassistant_longitude
+  radius: 100
+  icon: mdi:home
+
+frontend:
+config:
+
+http:
+  api_password: !secret http_password
+  ssl_certificate: !secret ssl_certificate
+  ssl_key: !secret ssl_key
+  ip_ban_enabled: True
+  login_attempts_threshold: 5
+
+updater:
+history:
+logbook:
+sun:
+
+light: !include_dir_list lights/
+notify: !include_dir_list notify/
+sensor: !include_dir_list sensors/
+device_tracker: !include_dir_list device_tracker/
+automation: !include_dir_list automation/
+scene: !include_dir_list scenes/
+group: !include groups.yaml
+script: !include_dir_named scripts
+
+zwave:
+  usb_path: /dev/ttyACM0
+  config_path: /srv/homeassistant/src/python-openzwave/openzwave/config
+
+tradfri:
+  host: !secret tradfri_host
+  api_key: !secret tradfri_api_key
+
+binary_sensor:
+ - platform: flic
+ - platform: rpi_gpio
+   ports:
+     23: Deurbel

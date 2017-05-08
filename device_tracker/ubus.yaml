@@ -1,0 +1,5 @@
+platform: ubus
+host: !secret ubus_host
+username: !secret ubus_username
+password: !secret ubus_password
+track_new_devices: false 

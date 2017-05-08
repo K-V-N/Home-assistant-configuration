@@ -1,0 +1,22 @@
+alias: 'Zonwering alles omlaag'
+hide_entity: false
+trigger:
+    - platform: event
+      event_type: zwave.scene_activated
+      event_data:
+       object_id: zonwering_zuid_3
+       scene_id: 22
+    - platform: event
+      event_type: zwave.scene_activated
+      event_data:
+       object_id: zonwering_oost_links_4
+       scene_id: 22
+    - platform: event
+      event_type: zwave.scene_activated
+      event_data:
+       object_id: zonwering_oost_rechts_5
+       scene_id: 22
+action:
+      - service: script.turn_on
+        entity_id:
+          - script.zonwering_omlaag

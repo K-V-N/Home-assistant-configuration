@@ -1,0 +1,9 @@
+platform: template
+sensors:
+  solar_angle:
+    value_template: '{{ states.sun.sun.attributes.elevation }}'
+    friendly_name: 'Sun angle'
+    unit_of_measurement: 'degrees'
+  sunrise:
+    friendly_name: 'Next sunrise'
+    value_template: '{{ states.sun.sun.attributes.next_rising }}'

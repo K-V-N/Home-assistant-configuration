@@ -1,0 +1,10 @@
+name: Evening
+entities:
+   light.all_spots_living_room:
+    state: on
+    brightness: 144
+    color_temp: 454
+   light.hanglampen_eettafel:
+    state: on
+    brightness: 144
+    color_temp: 447

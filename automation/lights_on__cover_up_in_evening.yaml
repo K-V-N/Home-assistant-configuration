@@ -1,0 +1,12 @@
+alias: 'Lights on and sun covers up in the evening'
+hide_entity: false
+trigger:
+      platform: numeric_state
+      entity_id: sun.sun
+      value_template: '{{ state.attributes.elevation }}'
+      below: 3
+action:
+      - service: scene.turn_on
+        entity_id:
+          - scene.evening
+          - scene.buitenlampen_aan

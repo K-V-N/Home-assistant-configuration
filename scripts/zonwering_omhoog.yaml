@@ -1,0 +1,7 @@
+sequence:
+    - service: cover.open_cover
+      data:
+       entity_id:
+          - cover.zonwering_zuid_level_3_0
+          - cover.zonwering_oost_links_level_4_0
+          - cover.zonwering_oost_rechts_level_5_0

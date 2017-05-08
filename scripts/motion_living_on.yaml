@@ -1,0 +1,16 @@
+sequence:
+  # Cancel ev. old timers
+  - service: script.turn_off
+    data:
+       entity_id: script.timer_off
+  - service: scene.turn_on
+    data:
+      entity_id:  scene.avond
+  - service: notify.notify
+    data:
+     message: "Turn on living room light because of movement"
+     title: "Movement"
+  # Set new timer
+  - service: script.turn_on
+    data:
+      entity_id: script.motion_living_off

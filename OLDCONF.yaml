@@ -1,0 +1,148 @@
+homeassistant:
+ name: Beekhoven 15
+ latitude: 52.221050
+ longitude: 5.469377
+ elevation: 3
+ unit_system: metric
+ time_zone: Europe/Amsterdam
+ customize: !include customize.yaml
+
+zone:
+  name: Home
+  latitude: 52.221050
+  longitude: 5.469377
+  radius: 100
+  icon: mdi:home
+
+frontend:
+config:
+
+http:
+  api_password: E9gd3vaGJo
+  ssl_certificate: /etc/letsencrypt/live/beekhoven15.duckdns.org/fullchain.pem
+  ssl_key: /etc/letsencrypt/live/beekhoven15.duckdns.org/privkey.pem
+  login_attempts_threshold: 5
+
+discovery:
+updater:
+conversation:
+history:
+logbook:
+sun:
+
+binary_sensor:
+ - platform: flic
+ - platform: rpi_gpio
+   ports:
+     23: Deurbel
+
+sensor:
+  - platform: darksky
+    api_key: 59886153801fc888502533859decea53
+    monitored_conditions:
+     - summary
+     - precip_type
+     - precip_intensity
+     - precip_probability
+     - temperature
+     - humidity
+     - wind_speed
+     - temperature_min
+     - temperature_max
+
+  - platform: template
+    sensors:
+      solar_angle:
+        value_template: '{{ states.sun.sun.attributes.elevation }}'
+        friendly_name: 'Sun angle'
+        unit_of_measurement: 'degrees'
+      sunrise:
+        friendly_name: 'Next sunrise'
+        value_template: '{{ states.sun.sun.attributes.next_rising }}'
+
+
+  - platform: systemmonitor
+    resources:
+      - type: disk_use_percent
+        arg: /
+      - type: disk_use_percent
+        arg: /var/log
+      - type: memory_use_percent
+      - type: memory_use
+      - type: memory_free
+      - type: processor_use
+      - type: swap_use_percent
+      - type: swap_use
+      - type: swap_free
+      - type: last_boot
+      - type: since_last_boot
+      - type: network_in
+        arg: eth0
+      - type: network_out
+        arg: eth0
+      - type: packets_in
+        arg: eth0
+      - type: packets_out
+        arg: eth0
+      - type: ipv4_address
+        arg: eth0
+      - type: ipv6_address
+        arg: eth0
+      - type: network_in
+        arg: eth1
+      - type: network_out
+        arg: eth1
+      - type: packets_in
+        arg: eth1
+      - type: packets_out
+        arg: eth1
+      - type: ipv4_address
+        arg: eth1
+      - type: ipv6_address
+        arg: eth1
+
+  - platform: command_line
+    name: CPU Temperature
+    command: "cat /sys/class/thermal/thermal_zone0/temp"
+    unit_of_measurement: "°C"
+    value_template: '{{ value | multiply(0.001) }}'
+
+tts:
+  platform: google
+
+zwave:
+  usb_path: /dev/ttyACM0
+
+light:
+  - platform: lifx
+    scan_interval: 2
+  - platform: hue
+    host: 192.168.1.213
+    scan_interval: 4
+
+tradfri:
+  host: 192.168.1.216
+  api_key: hg0j2fA2838Y2ArR
+
+device_tracker:
+  - platform: ubus
+    host: 192.168.1.1
+    username: root
+    password: E9gd3vaGJo
+    track_new_devices: true
+
+notify:
+  - platform: pushbullet
+    api_key: o.W5UiIz7880tABwVgsWLVgrVW4eOuERNX
+
+# media_player:
+#   - platform: apple_tv
+#     friendly_name: "Loft Apple TV"
+#     host: 192.168.1.156
+#     login_id: 00000000-0737-b7c6-d710-3124eea0496e
+#   - platform: cast
+
+group: !include group.yaml
+automation: !include automation.yaml
+scene: !include scene.yaml
+script: !include script.yaml

@@ -1,0 +1,6 @@
+name: "Eettafel normaal"
+entities:
+   light.hanglampen_eettafel:
+    state: on
+    brightness: 144
+    color_temp: 447

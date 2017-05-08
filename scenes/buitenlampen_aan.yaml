@@ -1,0 +1,6 @@
+name: "Buitenlampen aan"
+entities:
+   light.buiten:
+    state: on
+    brightness: 254
+    color_temp: 443

@@ -1,0 +1,6 @@
+name: Loft fel
+entities:
+   group.zolder:
+     state: on
+     color_temp: 370
+     brightness: 254

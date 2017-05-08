@@ -1,0 +1,10 @@
+name: Morning
+entities:
+   light.all_spots_living_room_wo_kitchen:
+    state: on
+    brightness: 144
+    color_temp: 454
+   light.keuken:
+    state: on
+    brightness: 254
+    color_temp: 367

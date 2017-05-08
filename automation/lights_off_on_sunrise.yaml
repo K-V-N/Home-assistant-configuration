@@ -1,0 +1,10 @@
+alias: "Lights off on sunrise"
+hide_entity: false
+trigger:
+    platform: numeric_state
+    entity_id: sun.sun
+    value_template: '{{ state.attributes.elevation }}'
+    above: 3
+action:
+    - service: light.turn_off
+      entity_id: light.eetkamer, light.keuken, light.woonkamer, light.buiten

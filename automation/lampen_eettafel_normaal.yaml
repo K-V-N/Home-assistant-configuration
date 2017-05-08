@@ -1,0 +1,12 @@
+alias: 'Lampen eettafel normaal'
+hide_entity: false
+trigger:
+    - platform: event
+      event_type: zwave.scene_activated
+      event_data:
+       object_id: zonwering_zuid_3
+       scene_id: 24
+action:
+      - service: scene.turn_on
+        entity_id:
+          - scene.eettafel_normaal
