@@ -51,3 +51,4 @@ binary_sensor:
  - platform: rpi_gpio
    ports:
      23: Deurbel
+   #pull_mode: UP

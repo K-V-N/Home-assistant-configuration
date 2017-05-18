@@ -5,6 +5,7 @@ default_view:
      - group.woonkamer
      - group.hal
      - group.mensen
+     - group.sensors
      - group.slaapkamer_zuid
      - group.slaapkamer_oost
      - group.slaapkamer_west
@@ -35,6 +36,17 @@ woonkamer:
         - scene.evening
         - scene.cooking
         - scene.morning
+
+sensors:
+  name: Sensors
+  view: no
+  entities:
+    - binary_sensor.multisensor_sensor_6_0
+    - sensor.multisensor_luminance_6_3
+    - sensor.multisensor_relative_humidity_6_5
+    - sensor.multisensor_temperature_6_1
+    - sensor.multisensor_ultraviolet_6_27
+
 
 buiten:
   name: Buiten

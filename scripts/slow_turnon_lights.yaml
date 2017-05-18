@@ -1,1109 +1,1109 @@
 sequence:
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 1
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 2
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 3
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 4
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 5
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 6
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 7
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 8
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 9
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 10
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 11
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 12
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 13
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 14
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 15
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 16
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 17
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 18
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 19
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 20
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 21
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 22
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 23
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 24
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 25
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 26
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 27
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 28
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 29
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 30
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 31
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 32
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 33
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 34
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 35
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 36
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 37
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 38
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 39
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 40
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 41
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 42
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 43
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 44
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 45
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 46
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 47
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 48
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 49
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 50
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 51
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 52
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 53
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 54
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 55
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 56
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 57
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 58
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 59
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 60
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 61
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 62
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 63
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 64
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 65
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 66
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 67
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 68
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 69
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 70
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 71
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 72
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 73
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 74
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 75
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 76
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 77
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 78
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 79
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 80
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 81
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 82
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 83
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 84
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 85
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 86
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 87
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 88
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 89
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 90
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 91
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 92
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 93
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 94
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 95
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 96
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 97
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 98
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 99
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 100
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 101
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 102
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 103
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 104
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 105
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 106
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 107
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 108
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 109
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 110
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 111
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 112
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 113
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 114
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 115
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 116
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 117
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 118
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 119
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 120
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 121
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 122
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 123
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 124
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 125
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 126
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 127
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 128
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 129
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 130
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 131
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 132
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 133
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 134
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 135
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 136
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 137
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 138
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 139
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 140
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 141
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 142
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 143
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 144
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 145
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 146
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 147
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 148
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 149
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 150
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 151
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 152
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 153
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 154
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 155
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 156
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 157
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 158
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 159
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 160
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 161
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 162
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 163
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 164
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 165
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 166
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 167
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 168
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 169
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 170
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 171
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 172
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 173
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 174
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 175
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 176
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 177
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 178
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 179
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 180
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 181
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 182
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 183
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 184
   - delay:
       seconds: 6
   - service: light.turn_on
     data_template:
-      entity_id: "{{ entity_id }}"
+      entity_id: light.plafondlamp_slaapkamer_oost_level_7_0
       brightness: 185
   - delay:
       seconds: 6
