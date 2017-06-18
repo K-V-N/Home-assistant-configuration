@@ -46,39 +46,39 @@ light.kachel_rechts:
   homebridge_hidden: true
 light.garagedeur_rechts:
   homebridge_hidden: true
-cover.zonwering_zuid_level_3_0:
+cover.zonwering_zuid_level:
   friendly_name: Zonwering Zuid
   icon: mdi:blinds
   homebridge_cover_type: rollershutter
-cover.zonwering_oost_links_level_4_0:
+cover.zonwering_oost_links_level:
   friendly_name: Zonwering Oost Links
   icon: mdi:blinds
   homebridge_cover_type: rollershutter
-cover.zonwering_oost_rechts_level_5_0:
+cover.zonwering_oost_rechts_level:
   friendly_name: Zonwering Oost Rechts
   icon: mdi:blinds
   homebridge_cover_type: rollershutter
-sensor.multisensor_alarm_level_6_1:
+sensor.multisensor_alarm_level:
   friendly_name: "Alarm level"
   icon: mdi:alert
-binary_sensor.multisensor_sensor_6_0:
+binary_sensor.multisensor_sensor:
   friendly_name: "Motion and Vibration"
   icon: mdi:alert
-sensor.multisensor_alarm_type_6_0:
+sensor.multisensor_alarm_type:
   friendly_name: "Alarm type"
   icon: mdi:alert
-sensor.multisensor_burglar_6_10:
+sensor.multisensor_burglar:
   friendly_name: "Motion"
   icon: mdi:alert
-sensor.multisensor_luminance_6_3:
+sensor.multisensor_luminance:
   friendly_name: "Luminance"
   icon: mdi:lightbulb-on-outline
-sensor.multisensor_relative_humidity_6_5:
+sensor.multisensor_relative_humidity:
   friendly_name: "Relative humidity"
   icon: mdi:water-percent
-sensor.multisensor_temperature_6_1:
+sensor.multisensor_temperature:
   friendly_name: "Temperature"
-sensor.multisensor_ultraviolet_6_27:
+sensor.multisensor_ultraviolet:
   friendly_name: "Ultraviolet"
   icon: mdi:sunglasses
 script.zonwering_omlaag:
@@ -105,44 +105,38 @@ sensor.dark_sky_precip_intensity:
   friendly_name: "Precip Intensity"
 sensor.dark_sky_wind_speed:
   friendly_name: "Wind Speed"
-cover.zonwering_zuid_switch_3_0:
+cover.zonwering_zuid_switch:
   hidden: true
-cover.zonwering_oost_rechts_switch_5_0:
+cover.zonwering_oost_rechts_switch:
   hidden: true
-cover.zonwering_oost_links_switch_4_0:
+cover.zonwering_oost_links_switch:
   hidden: true
-sensor.zonwering_zuid_energy_3_0:
+sensor.zonwering_zuid_energy:
   hidden: true
-sensor.zonwering_oost_links_energy_4_0:
+sensor.zonwering_oost_links_energy:
   hidden: true
-sensor.zonwering_oost_rechts_energy_5_0:
+sensor.zonwering_oost_rechts_energy:
   hidden: true
-sensor.zonwering_zuid_exporting_3_32:
+sensor.zonwering_zuid_exporting:
   hidden: true
-sensor.zonwering_oost_links_exporting_4_32:
+sensor.zonwering_oost_links_exporting:
   hidden: true
-ssensor.zonwering_oost_rechts_exporting_5_32:
+ssensor.zonwering_oost_rechts_exporting:
   hidden: true
-sensor.zonwering_zuid_power_3_4:
+sensor.zonwering_zuid_power:
   hidden: true
-sensor.zonwering_zuid_power_3_8:
+sensor.zonwering_oost_links_power:
   hidden: true
-sensor.zonwering_oost_links_power_4_4:
+sensor.zonwering_oost_rechts_power:
   hidden: true
-sensor.zonwering_oost_links_power_4_8:
+switch.zonwering_zuid_switch:
   hidden: true
-sensor.zonwering_oost_rechts_power_5_4:
+switch.zonwering_oost_links_switch:
   hidden: true
-sensor.zonwering_oost_rechts_power_5_8:
+switch.zonwering_oost_rechts_switch:
   hidden: true
-switch.zonwering_zuid_switch_3_0:
-  hidden: true
-switch.zonwering_oost_links_switch_4_0:
-  hidden: true
-switch.zonwering_oost_rechts_switch_5_0:
-  hidden: true
-light.plafondlamp_slaapkamer_oost_level_7_0_2:
-  friendly_name: "Plafondlamp Slaapkamer Oost"
+light.plafond_slaapkamer_oost_level:
+  friendly_name: "Plafondlamp"
 binary_sensor.flic_80e4da71e846:
   friendly_name: "Flic Wit"
 binary_sensor.flic_80e4da71dea1:
@@ -151,5 +145,5 @@ binary_sensor.flic_80e4da71e5ed:
  friendly_name: "Flic Groen"
 binary_sensor.flic_80e4da71f833:
  friendly_name: "Flic Blauw"
-light.tradfri_group:
+light.tradfri_group_2:
   friendly_name: "Hal"

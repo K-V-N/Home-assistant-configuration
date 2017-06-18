@@ -2,7 +2,7 @@ alias: "Licht aan bij beweging"
 hide_entity: false
 trigger:
     platform: state
-    entity_id: binary_sensor.multisensor_sensor_6_0
+    entity_id: binary_sensor.multisensor_sensor
     state: 'on'
 condition:
     condition: and

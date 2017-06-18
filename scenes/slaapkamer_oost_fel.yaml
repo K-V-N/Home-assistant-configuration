@@ -4,6 +4,6 @@ entities:
     state: on
     brightness: 255
     color_temp: 367
-   light.plafondlamp_slaapkamer_oost_level_7_0:
+   light.plafondlamp_slaapkamer_oost_level:
     state: on
     brightness: 255

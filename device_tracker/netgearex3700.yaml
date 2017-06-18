@@ -1,0 +1,6 @@
+platform: netgear
+host: !secret netgearex3700_host
+username: !secret netgearex3700_username
+password: !secret netgearex3700_password
+track_new_devices: True
+port: 80

@@ -4,17 +4,17 @@ trigger:
     - platform: event
       event_type: zwave.scene_activated
       event_data:
-       object_id: zonwering_zuid_3
+       object_id: zonwering_zuid
        scene_id: 12
     - platform: event
       event_type: zwave.scene_activated
       event_data:
-       object_id: zonwering_oost_links_4
+       object_id: zonwering_oost_links
        scene_id: 12
     - platform: event
       event_type: zwave.scene_activated
       event_data:
-       object_id: zonwering_oost_rechts_5
+       object_id: zonwering_oost_rechts
        scene_id: 12
 action:
       - service: script.turn_on

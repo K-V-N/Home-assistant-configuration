@@ -37,10 +37,13 @@ automation: !include_dir_list automation/
 scene: !include_dir_list scenes/
 group: !include groups.yaml
 script: !include_dir_named scripts
+weather: !include_dir_list weather/
+
 
 zwave:
   usb_path: /dev/ttyACM0
   config_path: /srv/homeassistant/src/python-openzwave/openzwave/config
+  new_entity_ids: true
 
 tradfri:
   host: !secret tradfri_host

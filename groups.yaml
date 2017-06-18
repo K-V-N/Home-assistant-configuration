@@ -41,11 +41,11 @@ sensors:
   name: Sensors
   view: no
   entities:
-    - binary_sensor.multisensor_sensor_6_0
-    - sensor.multisensor_luminance_6_3
-    - sensor.multisensor_relative_humidity_6_5
-    - sensor.multisensor_temperature_6_1
-    - sensor.multisensor_ultraviolet_6_27
+    - binary_sensor.multisensor_sensor
+    - sensor.multisensor_luminance
+    - sensor.multisensor_relative_humidity
+    - sensor.multisensor_temperature
+    - sensor.multisensor_ultraviolet
 
 
 buiten:
@@ -65,13 +65,12 @@ Hal_group:
    - light.hal_3
    - light.hal_4
    - light.hal_5
-   - light.tradfri_group
 
 Hal:
     name: Hal
     view: no
     entities:
-     - light.tradfri_group
+     - group.hal_group
 
 slaapkamer_zuid:
   name: "Slaapkamer zuid"
@@ -86,7 +85,7 @@ slaapkamer_oost:
   icon: mdi:hotel
   entities:
         - light.slaapkamer_oost
-        - light.plafondlamp_slaapkamer_oost_level_7_0
+        - light.plafond_slaapkamer_oost_level
         - scene.slaapkamer_oost_gedimd
         - scene.slaapkamer_oost_fel
 
@@ -129,6 +128,8 @@ weather:
     - sensor.dark_sky_wind_speed
     - sensor.solar_angle
     - sensor.sunrise
+    - sensor.br_precipitation
+    - sensor.br_irradiance
 
 
 
@@ -156,8 +157,8 @@ zonwering:
     icon: mdi:blinds
     control: hidden
     entities:
-     - cover.zonwering_zuid_level_3_0
-     - cover.zonwering_oost_links_level_4_0
-     - cover.zonwering_oost_rechts_level_5_0
+     - cover.zonwering_zuid_level
+     - cover.zonwering_oost_links_level
+     - cover.zonwering_oost_rechts_level
      - script.zonwering_omhoog
      - script.zonwering_omlaag

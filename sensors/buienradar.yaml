@@ -1,0 +1,6 @@
+platform: buienradar
+monitored_conditions:
+  - precipitation
+  - stationname
+  - irradiance
+  
